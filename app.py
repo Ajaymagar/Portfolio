@@ -1,7 +1,7 @@
 
 from  flask import Flask , render_template , request , redirect
 
-import gspread
+import gspread  
 
 gc = gspread.service_account(filename="cred.json")
 
